@@ -17,31 +17,37 @@ Using Machine Learning and Neural Networks for this project, I used the features
 
 The number of neurons, layers, and activation functions I selected for my neural network model:
 - For my neural network model I had 2 hidden layers. My first layer had 80 neurons, the second has 30 there is also an output layer. The first and second hidden layer have the "relu" activation function and the activation function for the output layer is "sigmoid."
+![ml1](https://user-images.githubusercontent.com/59430635/156963931-43696c87-999a-454f-b3f5-cb90f57910da.PNG)
 
-![](Resources/ml1.PNG)
+
 
 Was the model able to achieve the target model performance?
 - The model was not able to reach the target 75%. The accuracy for my model was 69%.
 
-![](Resources/ml2.PNG)
+![ml2](https://user-images.githubusercontent.com/59430635/156963938-275040d5-9101-4bd0-a632-46ba4b31ca64.PNG)
+
 
 The steps taken to try and increase model performance
 
 - Attempt 1: Removed additional feature, that is the 'USE_CASE' column. Rest of the model components stayed the same, however model accuracy went down to 63%. 
 
-![](Resources/ml3.PNG)
+![ml3](https://user-images.githubusercontent.com/59430635/156963942-165ae575-de89-414c-bde7-a7f043e94a48.PNG)
 
-![](Resources/ml4.PNG)
+
+![ml4](https://user-images.githubusercontent.com/59430635/156963947-6de90237-02a4-4154-87c2-0d9f60e0d73c.PNG)
+
 
 -  Attempt 2: Adding Additional neurons to hidden layers and additional hidden layers are added. The accuracy went down again, this time it was 53%.
 
-![](Resources/ml5.PNG)
+)![ml6](https://user-images.githubusercontent.com/59430635/156963960-e54a79a7-35c9-48a2-9c92-a95b6fd04ae7.PNG)
 
-![](Resources/ml6.PNG)
+
+
 
 - Attempt 3: Changing activation function of output layer from "sigmoid" to "tanh." The accuracy of the model went down even more to 50%.
 
 ![](Resources/ml7.PNG)
+![ml7](https://user-images.githubusercontent.com/59430635/156963966-7a9838fd-f584-4523-9840-53f401e159f9.PNG)
 
 
 ![](Resources/ml8.PNG)
